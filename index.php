@@ -2,11 +2,11 @@
 
 	session_start();
 
-	$api_url = "";
-	$api_key = "";
+	$api_url = "https://unitedmedicareadvisors.api-us1.com";
+	$api_key = "4b70f64eacf72ab8b78381dc8c2fe711d8c7eecbd3cb3f9d8741a2428729cbea4f01f54c";
 
-	define("ACTIVECAMPAIGN_URL", $api_url);
-	define("ACTIVECAMPAIGN_API_KEY", $api_key);
+	define("https://unitedmedicareadvisors.api-us1.com", $api_url);
+	define("4b70f64eacf72ab8b78381dc8c2fe711d8c7eecbd3cb3f9d8741a2428729cbea4f01f54c", $api_key);
 
 	require_once("../../activecampaign-api-php/includes/ActiveCampaign.class.php");
 	$ac = new ActiveCampaign(ACTIVECAMPAIGN_URL, ACTIVECAMPAIGN_API_KEY);
